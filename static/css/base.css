@@ -1,0 +1,84 @@
+body{
+  background-color: black;
+}
+
+
+.timeDiv{
+  margin-top: 50px;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* background-color: red; */
+  text-align: center;
+}
+
+.timeDiv > .time{
+  color: white;
+  margin-left: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  display: inline;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.timeDiv > .date{
+  color: white;
+  margin-left: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.weatherDiv{
+  margin-top: 50px;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background-color: red; */
+  text-align: center;
+}
+
+.weatherDiv > .temp{
+  color: white;
+  margin-left: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  display: inline;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.weatherDiv > .weatherSummary{
+  color: white;
+  margin-left: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.complimentDiv{
+    /* background-color: red; */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin: auto;
+    width: 50%;
+}
+
+.complimentDiv > p{
+  color: white;
+  margin-left: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 45px;
+  padding-top: 0;
+  margin-top: 0;
+}
